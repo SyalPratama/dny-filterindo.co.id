@@ -191,7 +191,7 @@
                 <div class="h-40 bg-sage-50 rounded-xl mb-4 overflow-hidden relative">
                     <img src="assets/img/comfortfilter_1.png" class="w-full h-full object-cover" alt="Hepa Filter">
                     <button
-                        @click="$dispatch('open-product-modal', { img: 'assets/img/comfortfilter_1.png', title: 'COMFORT FILTERS: M5 TO F9', pdf: 'assets/pdf/comfort-Filter.pdf' })"
+                        @click="$dispatch('open-product-modal', { img: 'assets/img/comfortfilter_1.png', title: 'COMFORT FILTERS: M5 TO F9', pdf: 'assets/pdf/comfort-filter.pdf' })"
                         class="absolute bottom-2 right-2 bg-white/90 p-2 rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition hover:bg-sage-500 hover:text-white">
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -208,7 +208,7 @@
                 <div class="h-40 bg-sage-50 rounded-xl mb-4 overflow-hidden relative">
                     <img src="assets/img/comfortfilter_2.png" class="w-full h-full object-cover" alt="Hepa Filter">
                     <button
-                        @click="$dispatch('open-product-modal', { img: 'assets/img/comfortfilter_2.png', title: 'COMFORT FILTERS: M5 TO F9 (2)', pdf: 'assets/pdf/comfort-Filter.pdf' })"
+                        @click="$dispatch('open-product-modal', { img: 'assets/img/comfortfilter_2.png', title: 'COMFORT FILTERS: M5 TO F9 (2)', pdf: 'assets/pdf/comfort-filter.pdf' })"
                         class="absolute bottom-2 right-2 bg-white/90 p-2 rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition hover:bg-sage-500 hover:text-white">
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
