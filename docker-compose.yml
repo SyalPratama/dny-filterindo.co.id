@@ -1,0 +1,46 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: filterindo_app
+    working_dir: /var/www/html
+    volumes:
+      - ./:/var/www/html
+    networks:
+      - filterindo_net
+
+  web:
+    image: nginx:alpine
+    container_name: filterindo_web
+    ports:
+      - "8110:80"
+    volumes:
+      - ./:/var/www/html
+      - ./docker/nginx/conf.d/:/etc/nginx/conf.d/
+    depends_on:
+      - app
+    networks:
+      - filterindo_net
+
+  db:
+    image: postgres:15
+    container_name: filterindo_db
+    environment:
+      POSTGRES_DB: filterindo_db
+      POSTGRES_USER: filterindoUser
+      POSTGRES_PASSWORD: 2026filterindo
+    ports:
+      - "5460:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    networks:
+      - filterindo_net
+
+networks:
+  filterindo_net:
+
+volumes:
+  db_data:
