@@ -11,39 +11,45 @@
     </header>
 
     <section class="max-w-5xl mx-auto px-6 py-8">
-        <div class="bg-white p-8 md:p-12 rounded-[2rem] shadow-sm border border-slate-100">
+        <!-- Kontainer Kaca -->
+        <div class="bg-white/5 backdrop-blur-xl border border-white/10 p-8 md:p-12 rounded-[2rem] shadow-2xl">
             <form action="#" method="POST" class="space-y-6">
                 @csrf
 
                 <div class="grid md:grid-cols-3 gap-6">
+                    <!-- Nama -->
                     <div>
-                        <label class="block text-sm font-semibold text-slate-700 mb-2">Full Name</label>
+                        <label class="block text-sm font-semibold text-white/80 mb-2">Full Name</label>
                         <input type="text" name="name" required
-                            class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-sage-500 focus:border-sage-500 outline-none transition">
+                            class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-white/30 focus:ring-2 focus:ring-white/20 focus:border-white/30 outline-none transition">
                     </div>
 
+                    <!-- Email -->
                     <div>
-                        <label class="block text-sm font-semibold text-slate-700 mb-2">Email Address</label>
+                        <label class="block text-sm font-semibold text-white/80 mb-2">Email Address</label>
                         <input type="email" name="email" required
-                            class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-sage-500 focus:border-sage-500 outline-none transition">
+                            class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-white/30 focus:ring-2 focus:ring-white/20 focus:border-white/30 outline-none transition">
                     </div>
 
+                    <!-- Telepon -->
                     <div>
-                        <label class="block text-sm font-semibold text-slate-700 mb-2">Phone Number</label>
+                        <label class="block text-sm font-semibold text-white/80 mb-2">Phone Number</label>
                         <input type="tel" name="phone" required
-                            class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-sage-500 focus:border-sage-500 outline-none transition">
+                            class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-white/30 focus:ring-2 focus:ring-white/20 focus:border-white/30 outline-none transition">
                     </div>
                 </div>
 
+                <!-- Pesan -->
                 <div>
-                    <label class="block text-sm font-semibold text-slate-700 mb-2">Message</label>
+                    <label class="block text-sm font-semibold text-white/80 mb-2">Message</label>
                     <textarea name="message" rows="6" required
-                        class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-sage-500 focus:border-sage-500 outline-none transition"></textarea>
+                        class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-white/30 focus:ring-2 focus:ring-white/20 focus:border-white/30 outline-none transition"></textarea>
                 </div>
 
+                <!-- Tombol Submit -->
                 <div class="pt-2">
                     <button type="submit"
-                        class="w-full bg-slate-900 text-white py-4 rounded-xl font-bold hover:bg-sage-600 transition uppercase tracking-wider">
+                        class="w-full bg-white/10 hover:bg-white/20 border border-white/20 text-white py-4 rounded-xl font-bold transition uppercase tracking-widest backdrop-blur-md">
                         Send Message
                     </button>
                 </div>

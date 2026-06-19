@@ -21,14 +21,16 @@
         <div class="grid md:grid-cols-2 gap-8">
             <div class="bg-sage-50 p-8 rounded-2xl">
                 <h3 class="text-2xl font-bold mb-4 text-sage-800">Our Vision</h3>
-                <p class="text-slate-600">To become the leading provider of filtration solutions that enhance operational efficiency, health, and environmental sustainability across industries in Indonesia.</p>
+                <p class="text-slate-600">To become the leading provider of filtration solutions that enhance operational
+                    efficiency, health, and environmental sustainability across industries in Indonesia.</p>
             </div>
             <div class="bg-slate-900 p-8 rounded-2xl text-white">
                 <h3 class="text-2xl font-bold mb-4">Our Mission</h3>
                 <ul class="space-y-2 text-slate-300 text-sm">
                     <li>• To deliver premium filtration products that are efficient, durable, and eco-friendly.</li>
                     <li>• To provide exceptional service supported by a team of experts and cutting-edge technology.</li>
-                    <li>• To meet industrial and healthcare needs with innovative solutions focused on performance and sustainability.</li>
+                    <li>• To meet industrial and healthcare needs with innovative solutions focused on performance and
+                        sustainability.</li>
                 </ul>
             </div>
         </div>
@@ -56,11 +58,13 @@
             </div>
         </div>
 
-        <div class="text-center pt-10 border-t border-slate-200">
-            <p class="text-lg font-bold text-slate-900 italic">"Join us in creating healthier, more efficient, and
-                environmentally friendly workspaces."</p>
-            <p class="mt-4 text-sage-600 font-bold">PT. Denayu Filterindo Teknik – Your Filtration Solution, Today and
-                Beyond.</p>
+        <div class="text-center pt-10 border-t border-white/10">
+            <p class="text-lg font-bold text-white italic">
+                "Join us in creating healthier, more efficient, and environmentally friendly workspaces."
+            </p>
+            <p class="mt-4 text-sage-400 font-bold">
+                PT. Denayu Filterindo Teknik – Your Filtration Solution, Today and Beyond.
+            </p>
         </div>
     </section>
 @endsection
